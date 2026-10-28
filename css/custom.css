@@ -1,0 +1,184 @@
+/*ШРИФТ ДЛЯ ВСЕГО САЙТА*/
+body, div, p, h1, h2, h3, h4, h5, h6, a, span, button {
+    font-family: "Lato",  Arial, sans-serif !important;
+}
+
+
+/* уменьшение расстояния между карточками товаров для мобилки */
+    @media screen and (max-width: 640px){
+        .t-col {
+         margin-bottom: 20px !important;
+        }
+    }
+
+
+/*Код уменьшает лейблы и избранное на карточках товаров*/
+    /*.t-store__card__mark{*/
+    /*    height: 35px !important;*/
+       
+    /*}*/
+    .t-store__card-nlm057 .t-store__card__btn {
+ 
+    padding: 5px;
+}
+
+
+    .t-store__prod-popup__btn_disabled::before{
+      
+        letter-spacing: -0.2px;
+    }
+}
+@media screen and (max-width: 480px){
+    .t-store__card__mark{
+        font-size: 10px !important;
+        padding: 0 6px !important;
+        height: 25px !important;
+        line-height: 0.8;
+    }
+
+    .t1002__addBtn {
+        width: 40px !important;
+        height: 40px !important;
+        right: 8px !important;
+        top: 8px !important;
+    }
+}
+
+
+/*Иконка корзины в кнопки добавить в корзину */
+  a[href^="#order"] {
+      font-size: 0px;
+      min-width: 60px;
+      background-image: url(https://static.tildacdn.com/tild3637-3839-4437-a130-386131666365/cart-shopping-shop-s.svg);
+      background-size: 34px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #141414 !important;
+  }   
+  @media screen and (max-width: 380px) {
+      a[href^="#order"]  {
+          min-width: 50px;
+      }
+      
+  }
+  @media screen and (max-width: 360px) {
+      a[href^="#order"]  {
+          min-width: 40px;
+      }
+      
+  }
+  .t-store__prod-popup__btn_disabled{
+    background-image: none !important;
+    content: "sold out" !important;
+  }
+  .t-store__prod-popup__btn_disabled::before {
+    content: "sold out" !important;
+    font-size: 13px !important;
+    pointer-events: none;
+    padding: 2px !important;
+    display: inline-block;
+  }
+  a[href^="#order"]::after {
+    content: '';
+    width: 35px;
+    height: 20px;
+    background-image: url(https://static.tildacdn.com/tild3637-3839-4437-a130-386131666365/cart-shopping-shop-s.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+  }
+  .t-store__prod-popup__btn_disabled::after {
+    width: 0 !important;
+  }
+  a[href^="#order"]:hover::after {
+    opacity: 1;
+  }
+  .t-store .t-store__card__wrap_all.t-store__card__wrap_pad-sm .t-store__card__btns-wrapper {
+    padding: 0 15px 14px !important;
+  }
+  .t-store__prod-popup__btn_disabled .t-store__card__btn-text{
+    width: 0 !important;
+  }
+  @media screen and (max-width: 670px) { 
+    a[href^="#order"]::after {
+      width: 25px;!important;
+    padding: 5px;!important;
+    height: 17px;!important;
+    }
+    .t-store__prod-popup__btn_disabled::before {
+      font-size: 9px !important;
+    }
+  }
+
+
+
+/*Подробнее на карточках товаров - уменьшение шрифта */
+@media screen and (max-width: 480px){
+    .t-store__mobile-two-columns .t-store__card__btn {
+        padding: 0 !important;
+        font-size: 10px !important;
+    }
+}
+
+
+/*Код выравнивает цену в карточках товаров по низу*/
+.t-store__card__textwrapper {
+    display: flex;
+    flex-direction: column;
+}
+.js-store-price-wrapper {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+.js-store-prod-sold-out {
+    width: 100%;
+    order: -1;
+}
+.t-store__card__price {
+    margin-right: 5px;
+}
+
+  .js-product .t-product__option-variants_buttons .t-product__option-item_simple {
+      border-radius: 5px;
+  }
+
+
+/*Изменение отступов в блоках магазина*/
+@media screen and (max-width: 640px) {
+
+  .t-store__grid-cont_mobile-grid .t-col:not(.t-col_8){
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .t-store .t-store__card__wrap_all.t-store__card__wrap_pad-sm .t-store__card__prod-controls-wrapper, .t-store .t-store__card__wrap_all.t-store__card__wrap_pad-sm .t-store__card__textwrapper {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .t-store .t-store__card__wrap_all.t-store__card__wrap_pad-sm .t-store__card__btns-wrapper {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 5px !important;
+    padding-top: 10px !important;
+  }
+
+  .t-store .t-store__card__wrap_all.t-store__card__wrap_pad-sm .store__card__wrap_txt-and-opts{
+    padding-bottom: 0 !important;
+  }
+  .t-store__card__descr{
+      font-size: 12px !important;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .t-store__mobile-two-columns .t-store__card__title.t-name{
+      font-size: 12px !important;
+    }
+    .t-store__card__descr{
+      font-size: 10px !important;
+    }
+  }

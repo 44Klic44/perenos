@@ -1,0 +1,42 @@
+User-Agent: *
+Disallow: /page33275567.html
+Disallow: /footer-17-10-22
+Disallow: /page35333129.html
+Disallow: /error
+Disallow: /page54474553.html
+Disallow: /header
+Disallow: /page73129937.html
+Disallow: /footer-lk
+Disallow: /page73130163.html
+Disallow: /header-lk
+Disallow: /page34719700.html
+Disallow: /page34719700html
+Disallow: /page35635892.html
+Disallow: /page37580357.html
+Disallow: /page40891043.html
+Disallow: /page37805760.html
+Disallow: /manual
+Disallow: /page56998817.html
+Disallow: /user-manual-air
+Disallow: /page41941548.html
+Disallow: /members/recover-password-old
+Disallow: /page61341631.html
+Disallow: /testpromopage
+Disallow: /page62160437.html
+Disallow: /dostavka1
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: https://eu.icolorpmu.com/sitemap.xml
+Sitemap: https://eu.icolorpmu.com/sitemap-store.xml
+Sitemap: https://eu.icolorpmu.com/sitemap-feeds.xml
